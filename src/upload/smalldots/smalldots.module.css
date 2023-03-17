@@ -1,0 +1,14 @@
+.Smalldots {
+    display: flex;
+    flex-direction: column;
+    width:40px;
+    cursor:pointer;
+    margin-top: 3px;
+}
+.Dots {
+    border-radius: 50%;
+    width:5px;
+    height:5px;
+    margin:3px;
+    background: #000;
+}

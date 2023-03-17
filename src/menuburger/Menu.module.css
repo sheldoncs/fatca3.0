@@ -1,0 +1,22 @@
+.Menu {
+    display: flex;
+    flex-direction: column;
+    width:60px;
+    z-index:20px;
+    margin-top:10px;
+    margin-left:15px;
+    cursor:pointer;
+}
+@media (min-width: 0px) and (max-width: 450px) {
+
+    .Menu {
+        display: flex;
+        flex-direction: column;
+        width:40px;
+        z-index:20px;
+        margin-top:10px;
+        margin-left:15px;
+        cursor:pointer;
+    }
+}
+@media (min-width: 451px) and (max-width: 800px) {}

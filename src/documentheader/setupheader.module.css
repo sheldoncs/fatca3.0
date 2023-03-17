@@ -1,0 +1,62 @@
+.SetupHeader {
+    position: absolute;
+    width: 60%;
+    height:100%;
+    border : 0px solid #7FA322;
+    background-color: #EDEFF0;
+    z-index: 20;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top:71px;
+    border-radius: 20px;    
+}
+.Line {
+    width: 100%;
+    height:3px;
+    border-bottom: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+.Title {
+   display: flex;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 25px;
+   margin-top:16px;
+}
+.Header {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height:70px;
+    margin:auto;
+    justify-content: space-between;
+}
+.HeaderContainer {
+    display: flex;
+    flex-direction: column; 
+    height: 30px!important;
+    margin:auto;
+    width:40%;
+}
+.CloseContainer {
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .FieldContainer {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    margin:25px auto;
+
+ }
+ .Button {
+    font-family: 'Open Sans', sans-serif;
+ }

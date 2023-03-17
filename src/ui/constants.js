@@ -1,0 +1,24 @@
+export const FATCA_TITLE = "UPLOAD FILES";
+export const DRAG_AND_DROP = "Drag and drop excel document to upload";
+export const UPLOAD_TITLE = "Submit your FATCA and CRS Excel documents";
+export const FILE_UPLOAD_INSTRUCTION = "Please make sure that the documents are in the correct formats, else they will be rejected by the software. Ensure that there is one spreadsheet per file.";
+export const SELECT_FILES = "SELECT FILES";
+export const BUILD_DOCUMENT = "BUILD";
+export const DOCUMENT_HEADER_DATA = "DOCUMENT HEADER DATA";
+export const DOCUMENT_EDITOR = "DOCUMENT EDITOR";
+export const LOGOUT = "LOGOUT";
+export const XML_HEADER_SETUP = "SETUP FILE HEADER";
+export const EXCEL_FILE_FORMATS = "SHOW EXCEL FILE FORMATS";
+
+export const ACCOUNT_NUMBER = "ACCOUNT NUMBER";
+export const LAST_NAME = "LAST NAME";
+export const FIRST_NAME = "FIRST NAME";
+export const DATE_OF_BIRTH = "DATE OF BIRTH (mm/dd/yyyy)";
+export const SSN = "SSN";
+export const CURRENT_CITY_AND_ADDRESS = "CURRENT CITY AND ADDRESS";
+export const STATE = "STATE";
+export const COUNTRY = "COUNTRY";
+export const ZIP = "ZIP";
+export const AMOUNT = "AMOUNT";
+export const INTEREST = "PAYMENTS (INTEREST)";
+export const INDIVIDUAL = "INDIVIDUAL";

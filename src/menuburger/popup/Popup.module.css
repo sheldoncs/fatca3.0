@@ -1,0 +1,101 @@
+.Popup {
+    display:flex;
+    flex-direction: column;
+    width:200px;
+    height:75px;
+    border:2px solid #179FDA;
+    margin-top:0px;
+    margin-left:2px;
+    border-radius: 4px;
+    transition: transform 330ms ease-out;
+}
+.Popup{
+    
+}
+.Open {
+    transform: translateX(0%);
+  }
+  .Close {
+    transform: translateX(100%);
+  }
+.Item{
+    width:100%;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    color:#000;
+    height:30px!important;
+    text-transform: uppercase;
+    background-color: #93D5ED;
+}
+.Item:hover{
+    background-color: #DFEFF5;
+}
+.Line{
+    width: 198px;
+    height: 47px;
+    border-bottom: 2px solid #179FDA;
+}
+@media (min-width: 0px) and (max-width: 450px) {
+     .Popup {
+        display:flex;
+        flex-direction: column;
+        width:140px;
+        height:76px;
+        border:2px solid #179FDA;
+        margin-top:0px;
+        margin-right:70px!important;
+        border-radius: 4px;
+        transition: transform 330ms ease-out;
+        z-index:15;
+    }
+    .Item{
+        width:100%;
+        font-size: 15px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        color:#000;
+        height:30px!important;
+        text-transform: uppercase;
+        background-color: #93D5ED;
+    }
+    .Item:hover{
+        background-color: #DFEFF5;
+    }
+    .Line{
+        width: 138px;
+        height: 47px;
+        border-bottom: 2px solid #179FDA;
+    }
+}
+@media (min-width: 451px) and (max-width: 800px) {
+    .Popup {
+        display:hide;
+        flex-direction: column;
+        width:160px;
+        height:74px;
+        border:2px solid #179FDA;
+        margin-top:0px;
+        margin-right:10px!important;
+        border-radius: 4px;
+        transition: transform 330ms ease-out;
+    }
+    .Item{
+        width:100%;
+        font-size: 15px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        color:#000;
+        height:30px!important;
+        text-transform: uppercase;
+        background-color: #93D5ED;
+    }
+    .Item:hover{
+        background-color: #DFEFF5;
+    }
+    .Line{
+        width: 158px;
+        height: 47px;
+        border-bottom: 2px solid #179FDA;
+    }
+}

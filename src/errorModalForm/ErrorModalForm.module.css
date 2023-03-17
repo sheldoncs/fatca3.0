@@ -1,0 +1,56 @@
+.ErrorModalForm {
+    position:absolute;
+    flex-direction: column;
+    width:700px;
+    top:0px;
+    left:0;
+    right:0;
+    margin:125px auto;
+    border:1px solid #ccc;
+    z-index:30;
+    background-color: #fff;
+    height:230px;
+    font-family: 'Kaisei Opti', serif;
+    font-size: 20px;
+}
+.Title {
+    width:100%!important;
+    height:50px;
+    background-color: rgb(255, 0, 0);
+    color:#fff;
+    padding-top: 10px;
+    padding-left:15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Button{
+    width:60px;
+    display:block;
+    margin:25px auto;
+    z-index:10;
+}
+.Body {
+    display:flex;
+    width:320px;
+    margin:40px auto;
+    background-color: #fff;
+    color:#000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.arrowUp {
+    width: 0; 
+    height: 0px; 
+    border-left: 20px solid transparent;
+    border-bottom-left-radius: 3px;
+    border-right: 20px solid transparent;
+    border-bottom-right-radius: 3px;
+    border-bottom: 30px solid red;
+    font-size: 25px;
+    color:#fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+  }
+  
+  
+  
